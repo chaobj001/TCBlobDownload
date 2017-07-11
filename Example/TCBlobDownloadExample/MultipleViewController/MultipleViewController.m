@@ -76,16 +76,16 @@ static NSString * const kNameKey = @"name";
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _downloads = [NSMutableArray new];
-        [_downloads addObject:@{ kURLKey : @"https://github.com/thibaultCha/TCBlobDownload/archive/master.zip",
+        [_downloads addObject:@{ kURLKey : @"http://zthome.ztjystore.cn/Ftv3BVwytJqfMgBbhMvaeTxfa7UN",
                                  kNameKey: @"TCBlobDownload master branch" }];
         
-        [_downloads addObject:@{ kURLKey : @"https://github.com/thibaultCha/Equiprose/archive/master.zip",
+        [_downloads addObject:@{ kURLKey : @"http://zthome.ztjystore.cn/ljyiZWlTQEuVmNSUzfSPYyIWBrmz",
                                  kNameKey: @"Equiprose master branch" }];
         
-        [_downloads addObject:@{ kURLKey : @"https://api.soundcloud.com/tracks/130355303/stream?client_id=b45b1aa10f1ac2941910a7f0d10f8e28",
+        [_downloads addObject:@{ kURLKey : @"http://i.immu.edu.cn/smilecampus_immu/upload//2017/06/30/5955fc38b9ad8.mp4",
                                  kNameKey: @"Soundcloud 1" }];
         
-        [_downloads addObject:@{ kURLKey : @"https://api.soundcloud.com/tracks/126240832/download?client_id=b45b1aa10f1ac2941910a7f0d10f8e28",
+        [_downloads addObject:@{ kURLKey : @"http://of8rjmo4d.bkt.clouddn.com/FnVlYa5pyaJFNQaQTe90Dz_32zzP",
                                  kNameKey: @"Soundcloud 2" }];
     });
     

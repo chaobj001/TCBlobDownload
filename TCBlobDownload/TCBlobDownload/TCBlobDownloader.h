@@ -84,7 +84,7 @@ typedef NS_ENUM(NSUInteger, TCBlobDownloadState) {
  
  @since 1.0
  */
-@property (nonatomic, unsafe_unretained) id<TCBlobDownloaderDelegate> delegate;
+@property (nonatomic, weak) id<TCBlobDownloaderDelegate> delegate;
 
 /**
  The directory where the file is being downloaded.
@@ -101,6 +101,12 @@ typedef NS_ENUM(NSUInteger, TCBlobDownloadState) {
  @since 1.0
  */
 @property (nonatomic, copy, readonly, getter = pathToFile) NSString *pathToFile;
+
+/**
+ *  下载完成的文件路径，`pathToFile` 下载部分文件路径。
+ *  该库在一个文件完成下载后，如果重新发起下载请求，会产生 HTTP `416` 错误
+ */
+@property (nonatomic, copy, readonly, getter = pathToCompletedFile) NSString *pathToCompletedFile;
 
 /**
  The URL of the file to download.

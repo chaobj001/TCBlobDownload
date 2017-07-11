@@ -212,7 +212,7 @@
 				ORGANIZATIONNAME = thibaultCha;
 				TargetAttributes = {
 					217762341730025C001956C7 = {
-						DevelopmentTeam = P7PMBGAHNP;
+						DevelopmentTeam = GT496M7LMJ;
 					};
 				};
 			};
@@ -377,6 +377,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GT496M7LMJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TCBlobDownloadExample/TCBlobDownloadExample-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -388,6 +389,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szy.TCBlobDownloadExample;
 				PRODUCT_NAME = TCBlobDownloadExample;
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,6 +400,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = GT496M7LMJ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TCBlobDownloadExample/TCBlobDownloadExample-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -409,6 +412,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szy.TCBlobDownloadExample;
 				PRODUCT_NAME = TCBlobDownloadExample;
 				WRAPPER_EXTENSION = app;
 			};

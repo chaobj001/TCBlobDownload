@@ -91,6 +91,14 @@
     }
 }
 
+- (void)cancelDownloadWithUrl:(NSString *)url {
+    for (TCBlobDownloader *blob in [self.operationQueue operations]) {
+        if ([blob.downloadURL.absoluteString isEqualToString:url]) {
+            [blob cancelDownloadAndRemoveFile:NO];
+            break;
+        }
+    }
+}
 
 #pragma mark - Custom Setters
 
